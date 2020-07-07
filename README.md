@@ -1,24 +1,24 @@
 # RestAPI-JSON-server-BDD
-This project is implementation of running a JSON server on local machine which allows to create json file and modify the schema and value by choice. Further, BDD Cucumber and non-BDD framework based test cases are written for the local API created. 
+This project is implementation of running a JSON server on local machine which allows to create json file and modify the schema and value by choice. Further, BDD Cucumber and non-BDD framework based test cases are written for the local API created with different Endpoints. 
 
 **Prerequisite**
 
 - RestAssured 
-- Cucumber
+- Cucumber 
 - Maven
 - npm JSON server
 
 **BUILD**
 
 1. open cmd and run - npm install json-server
-2. creat db.json file in project directory
+2. creat [db.json](https://github.com/robinch93/RestAPI-JSON-server-BDD/blob/master/RestAssured_Gherkin/src/test/resources/db.json) file in project directory
 3. cd to project directory and run cmd - json-server
 3. run cmd - json-server ./db.json
 4. Access - http://localhost:3000/ - in browser with different endpoints 
    available according to schema made in db.json file. 
-   Example: http://localhost:3000/posts
-            http://localhost:3000/comments
-            http://localhost:3000/profile
+   Example: http://localhost:3000/posts__
+            http://localhost:3000/comments__
+            http://localhost:3000/profile__
             http://localhost:3000/address
 
 **RUN**
