@@ -14,14 +14,9 @@ This project is implementation of running a JSON server on local machine which a
 2. creat [db.json](https://github.com/robinch93/RestAPI-JSON-server-BDD/blob/master/RestAssured_Gherkin/src/test/resources/db.json) file in project directory
 3. cd to project directory and run cmd - json-server
 3. run cmd - json-server ./db.json
-4. Access - http://localhost:3000/ - in browser with different endpoints 
-   available according to schema made in db.json file. <br />
-    For Example: <br /> 
-            http://localhost:3000/posts <br />
-            http://localhost:3000/comments <br />
-            http://localhost:3000/profile <br />
-            http://localhost:3000/address
-
+4. All the endpoints available will be shown under Resources <br/>
+   which can be accessed with base url - http://localhost:3000/
+   
 **RUN**
 
 Right Click [TestRunner.java](https://github.com/robinch93/RestAPI-JSON-server-BDD/blob/master/RestAssured_Gherkin/src/test/java/Runner/TestRunner.java) - Run As - JUnit Test
