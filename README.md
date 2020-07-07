@@ -15,8 +15,9 @@ This project is implementation of running a JSON server on local machine which a
 3. cd to project directory and run cmd - json-server
 3. run cmd - json-server ./db.json
 4. Access - http://localhost:3000/ - in browser with different endpoints 
-   available according to schema made in db.json file. 
-   Example: http://localhost:3000/posts <br />
+   available according to schema made in db.json file. <br />
+    For Example: <br /> 
+            http://localhost:3000/posts <br />
             http://localhost:3000/comments <br />
             http://localhost:3000/profile <br />
             http://localhost:3000/address
