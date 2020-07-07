@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Selenium",
+      "author": "john"
+    },
+    {
+      "id": 2,
+      "title": "testng",
+      "author": "cena"
+    },
+    {
+      "author": "Execute Automation",
+      "id": "3",
+      "title": "Robotium"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "good course",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "Sam",
+    "postId": "2"
+  },
+  "address": {
+    "primary": [
+      {
+        "city": "Auckland",
+        "State": "Auckland",
+        "Country": "New Zealand",
+        "PinCode": 1010
+      },
+      {
+        "city": "Auckland",
+        "State": "Auckland",
+        "Country": "New Zealand",
+        "PinCode": 1000
+      }
+    ],
+    "secondary": [
+      {
+        "city": "Sydney",
+        "State": "Sydney",
+        "Country": "Australia",
+        "PinCode": 1000
+      }
+    ]
+  }
+}
